@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* LOGO */
+
+.box-image-logo {
+    width: 36.43rem;
+    height: 23.3rem;
+    margin: 9rem auto;
+}
+
+.image-logo {
+    width: 100%;
+}
+
+/* CONTEUDO */
+
+.section-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-content {
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.box-input-content {
+    margin-top: 1.81rem;
+    margin-bottom: 4.94rem;
+    display: flex;
+    gap: 4rem;
+}
+
+.input-value-content {
+    border-radius: 0.875rem;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: rgba(255, 255, 255, 0.25);
+    padding: 0.7rem;
+    color: #FFF;
+    font-size: 2.5rem;
+    font-weight: 500;
+    opacity: 0.7;
+}
+
+.button-raffle {
+    border-radius: 0.625rem;
+    background: #AEC346;
+    box-shadow: 0px 18px 40px 0px rgba(174, 195, 70, 0.35);
+    display: flex;
+    width: 21.375rem;
+    height: 4.5rem;
+    padding: 0rem 4.75rem;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 0.15625rem;
+    cursor: pointer;
+    margin-bottom: 11.69rem;
+
+    transition: .5s;
+}
+
+.button-raffle:hover {
+    background: #cef704;
+}
+
+.button-raffle:active {
+    opacity: .5;
+}
