@@ -8,7 +8,7 @@
  * JavaScript
 
  ## Link do projeto
-<a href="" target="_blank">Sorteador</a>
+<a href="https://sorteado.netlify.app/" target="_blank">Sorteador</a>
 
 # Contato
 <div align="center">
