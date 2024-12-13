@@ -44,6 +44,7 @@ body {
 }
 
 .input-value-content {
+    width: 20rem;
     border-radius: 0.875rem;
     border: 1px solid rgba(255, 255, 255, 0.20);
     background: rgba(255, 255, 255, 0.25);
@@ -81,4 +82,28 @@ body {
 
 .button-raffle:active {
     opacity: .5;
+}
+
+@media screen and (max-width: 760px) {
+    .box-image-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .image-logo {
+        width: 50%;
+    }
+
+    .box-input-content {
+        flex-direction: column;
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .title-content {
+        font-size: 1.4rem;
+    }
 }
